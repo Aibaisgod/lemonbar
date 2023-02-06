@@ -1,0 +1,292 @@
+body {
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium",
+        "游ゴシック", "Yu Gothic", sans-serif;
+    background-color: #FFF8E7;
+}
+
+* {
+    width: 100vw;
+    margin: 0 auto;
+}
+
+/***** header-area *************************************/
+
+.header {
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-blank {
+    background-color: rgba(255, 229, 190, 0.45);
+}
+
+
+/**header logo*******/
+
+.header .header-logo {
+    width: 25%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.header-logo img {
+    width: 100%;
+    opacity: 0.8;
+}
+
+
+/** menu area *****************************/
+.menu {
+    width: 60%;
+    height: 200px;
+}
+
+.menu ul {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li {
+    font-size: 26px;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.menu ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: #fda92c;
+    transition: 0.7s;
+}
+
+
+/** main area *****************************************/
+.main {
+    width: 100%;
+    height: 750px;
+    background-image: url(../images/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-blank {
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 750px;
+}
+
+/** main-top **********/
+.main-top {
+    width: 80%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-top-text {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-top-text h3 {
+    font-size: 40px;
+    color: #000;
+}
+
+.main-top-text h2 {
+    font-size: 50px;
+    color: #000;
+}
+
+.main-top-img {
+    width: 30%;
+}
+
+.main-top-img img {
+    width: 100%;
+}
+
+.main-bottom-blank {
+    width: 10%;
+}
+
+/** main-bottom **********/
+.main-bottom {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-bottom-img {
+    width: 30%;
+}
+
+.main-bottom-img img {
+    width: 100%;
+}
+
+.main-bottom-blank {
+    width: 20%;
+}
+
+.main-bottom-text {
+    width: 50%;
+    color: #000;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+
+/** news area ***********************************************/
+
+.news {
+    width: 90%;
+    margin-top: 150px;
+}
+
+.news-img {
+    width: 100%;
+    text-align: center;
+}
+
+.news-img img {
+    width: 30%;
+}
+
+/** news-area *******/
+
+.news-area {
+    width: 90%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-box {
+    width: 28%;
+    border: 2px solid #a47734;
+}
+
+.news-box img {
+    width: 100%;
+}
+
+.news-box h3,
+h2,
+p {
+    padding-left: 10px;
+}
+
+/** menu-area ***********************************/
+
+.menu {
+    width: 90%;
+    margin-top: 200px;
+}
+
+.menu-img {
+    width: 100%;
+    text-align: center;
+}
+
+.menu-img img {
+    width: 30%;
+}
+
+.menu-area {
+    width: 90%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-box {
+    width: 28%;
+    border: 2px solid #fda92c;
+}
+
+.menu-box a {
+    text-decoration: none;
+}
+
+.menu-box img {
+    width: 100%;
+}
+
+.menu-box h3 {
+    font-size: 30px;
+    color: #a47734;
+}
+
+/** footer-area *******************************/
+
+.footer {
+    width: 100%;
+    height: 600px;
+    margin-top: 400px;
+    background-image: url(../images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-blank {
+    width: 100%;
+    height: 600px;
+    background-color: rgba(255, 229, 190, 0.45);
+}
+
+.footer-content {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content-blank {
+    width: 20%;
+}
+
+.footer-info {
+    width: 30%;
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-info dl {
+    padding-top: 10px;
+}
+
+.footer-info dl dt {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.footer-map {
+    width: 50%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-map iframe {
+    width: 80%;
+}
